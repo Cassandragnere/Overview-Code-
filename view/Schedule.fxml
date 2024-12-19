@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.ScheduleController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#dbdcdd" height="42.0" layoutX="51.0" layoutY="157.0" stroke="WHITE" strokeType="INSIDE" width="470.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#dbdcdd" height="42.0" layoutX="51.0" layoutY="332.0" stroke="WHITE" strokeType="INSIDE" width="470.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#dbdcdd" height="42.0" layoutX="51.0" layoutY="276.0" stroke="WHITE" strokeType="INSIDE" width="470.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#dbdcdd" height="42.0" layoutX="51.0" layoutY="215.0" stroke="WHITE" strokeType="INSIDE" width="470.0" />
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+      <Text layoutX="94.0" layoutY="127.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Pasient">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="277.0" layoutY="126.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tid">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+
+      <!-- Astrid Button -->
+      <Button fx:id="astrid" layoutX="60.0" layoutY="165.0" mnemonicParsing="false" onAction="#handleAstridClick" prefHeight="25.0" prefWidth="113.0" text="Astrid Olsen" />
+
+      <Button layoutX="60.0" layoutY="223.0" mnemonicParsing="false" text="Gertrud Pettersen " />
+      <Button layoutX="60.0" layoutY="285.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="113.0" text="Egmund Berg" />
+      <Button layoutX="60.0" layoutY="341.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="113.0" text="Toke Lund" />
+
+      <!-- Adresse Button -->
+      <Button fx:id="adresse" layoutX="376.0" layoutY="166.0" mnemonicParsing="false" onAction="#handleAdresseClick" prefHeight="25.0" prefWidth="132.0" text="Ole Bulls gate 17" />
+
+      <Text layoutX="407.0" layoutY="173.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+      <Text layoutX="418.0" layoutY="125.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Adresse">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <TextField layoutX="243.0" layoutY="165.0" prefHeight="25.0" prefWidth="92.0" />
+      <TextField layoutX="243.0" layoutY="223.0" prefHeight="25.0" prefWidth="92.0" />
+      <TextField layoutX="243.0" layoutY="285.0" prefHeight="25.0" prefWidth="92.0" />
+      <TextField layoutX="243.0" layoutY="341.0" prefHeight="25.0" prefWidth="92.0" text="  09.55-10.05" />
+      <Text layoutX="255.0" layoutY="182.0" strokeType="OUTSIDE" strokeWidth="0.0" text="08.00-08.15" />
+      <Text layoutX="258.0" layoutY="240.0" strokeType="OUTSIDE" strokeWidth="0.0" text="08.30-09.00" />
+      <Text layoutX="255.0" layoutY="302.0" strokeType="OUTSIDE" strokeWidth="0.0" text="09.15-09.45" />
+      <Text layoutX="275.0" layoutY="350.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+      <Button layoutX="377.0" layoutY="285.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="132.0" text="Peder Claussøns gt. 9, " />
+      <Button layoutX="377.0" layoutY="341.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="132.0" text="Strandveien 31" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#dbdcdd" height="56.0" layoutY="-4.0" stroke="WHITE" strokeType="INSIDE" width="600.0" />
+      <TextField layoutX="14.0" layoutY="14.0" prefHeight="25.0" prefWidth="132.0" text="Flemming Jensen" />
+      <TextField layoutX="485.0" layoutY="12.0" prefHeight="25.0" prefWidth="92.0" text="Dato 11/12/2024" />
+      <Text layoutX="220.0" layoutY="32.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Timeplanen Din">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Text>
+      <Button layoutX="376.0" layoutY="224.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="132.0" text="Flaten 1A" />
+   </children>
+</Pane>

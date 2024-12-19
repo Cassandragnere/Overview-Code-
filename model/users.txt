@@ -1,0 +1,2 @@
+0,Flemming,1234,Sosu-assistent
+1,Anna,pass567,Healthcare-worker

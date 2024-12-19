@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.PatientController">
+    <children>
+        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#dbdcdd" height="56.0" stroke="WHITE" strokeType="INSIDE" width="600.0" />
+        <TextField layoutX="214.0" layoutY="15.0" text="           Astrid Olsen" />
+        <TextField layoutX="494.0" layoutY="15.0" prefHeight="25.0" prefWidth="92.0" text="Dato 11/12/2024" />
+        <Button layoutX="26.0" layoutY="15.0" mnemonicParsing="false" text="Tilbake" />
+        <Text layoutX="53.0" layoutY="156.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Oppgaver">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Text>
+        <TextField layoutX="214.0" layoutY="91.0" text="           08.00-08.15" />
+        <Text layoutX="266.0" layoutY="79.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tidsplan" />
+        <Text layoutX="251.0" layoutY="155.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Medisin">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Text>
+        <Text layoutX="38.0" layoutY="306.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Notat:" />
+        <CheckBox layoutX="47.0" layoutY="183.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="75.0" text="Frokost " />
+        <CheckBox layoutX="47.0" layoutY="228.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="149.0" text="Kompresjonsstrømper " />
+        <CheckBox layoutX="251.0" layoutY="183.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="139.0" text="Paracetamol 500 mg" />
+        <TextField layoutX="37.0" layoutY="315.0" prefHeight="70.0" prefWidth="314.0" />
+
+        <!-- AVSLUTT Button -->
+        <Button fx:id="avslutt" layoutX="429.0" layoutY="327.0" mnemonicParsing="false" onAction="#handleAvsluttClick" prefHeight="47.0" prefWidth="92.0" text="AVSLUTT" />
+
+        <Text layoutX="433.0" layoutY="72.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Kontakt">
+            <font>
+                <Font size="10.0" />
+            </font>
+        </Text>
+        <Text layoutX="427.0" layoutY="87.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sykepleier">
+            <font>
+                <Font size="10.0" />
+            </font>
+        </Text>
+        <Text layoutX="491.0" layoutY="86.0" strokeType="OUTSIDE" strokeWidth="0.0" text="+4765833895" underline="true">
+            <font>
+                <Font size="10.0" />
+            </font>
+        </Text>
+        <Text layoutX="415.0" layoutY="107.0" strokeType="OUTSIDE" strokeWidth="0.0" text="  Kontaktperson">
+            <font>
+                <Font size="10.0" />
+            </font>
+        </Text>
+        <Text layoutX="491.0" layoutY="107.0" strokeType="OUTSIDE" strokeWidth="0.0" text="+4765833895" underline="true" wrappingWidth="72.896484375">
+            <font>
+                <Font size="10.0" />
+            </font>
+        </Text>
+        <Text layoutX="560.0" layoutY="107.0" strokeType="OUTSIDE" strokeWidth="0.0" text="(Datter)">
+            <font>
+                <Font size="9.0" />
+            </font>
+        </Text>
+      <Button fx:id="journal" layoutX="439.0" layoutY="182.0" mnemonicParsing="false" onAction="#handleJournalClick" prefHeight="36.0" prefWidth="73.0" text="Se journal" />
+      <Text layoutX="455.0" layoutY="155.0" strokeType="OUTSIDE" strokeWidth="0.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+    </children>
+</Pane>
